@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 10px;
+  height: 95vh;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
