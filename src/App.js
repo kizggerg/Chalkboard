@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+
+import './App.css'
+import { ChalkBoard } from './Components/ChalkBoard'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1> Blackboard </h1>
+      <div>
+        <ChalkBoard />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
